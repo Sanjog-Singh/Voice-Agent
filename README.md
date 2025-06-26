@@ -3,6 +3,7 @@ Voice Agent is an Inbound AI Voice Agent built using Python, Ultravox.ai, Twilio
 I have created this project during my Internship at Hybrid Workforces, Vadodara, Gujarat.<br>
 This Agent works according to the System Prompt given by you.<br>
 This Agent was earlier supposed to explain the Company's Products, answer the queries of clients and send a follow-up mail or schedule a meeting on Teams, Meet and Zoom and update this detail in Zoho CRM also.<br>
+You have to create a transcripts folder in your project folder, which will be used to store transcripts of the call and a templates folder in which you have to paste the calls.html file in it so that flask can render it.<br>
 For Confidentiality, I have not included System Prompt Files and necessary Credentials of Ultravox.ai, Twilio and Zoho CRM.<br>
 You can get free Ultravox.ai API Key, which will be valid for calls for 30 minutes only, from the below link.<br>
 https://app.ultravox.ai/<br>
